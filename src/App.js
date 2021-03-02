@@ -1,17 +1,17 @@
 import React from "react";
-import Main from "./components/Main";
+import Gallery from "./pages/Gallery";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
-import Header from "./components/Header";
-
-import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Navbar />
       <Wrapper>
-        <Header />
-        <Main />
+        <Gallery />
       </Wrapper>
+      <Footer />
     </div>
   );
 }
